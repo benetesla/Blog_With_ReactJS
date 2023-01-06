@@ -6,9 +6,9 @@ import Login from './pages/Login';
 function App() {
   return <Router>
     <nav style={styles.nav}>
-      <Link style={styles.link} to="/">Home</Link>
-      <Link style={styles.link} to="/create">Create Post</Link>
-      <Link style={styles.link} to="/login">Login</Link>
+      <Link style={styles.link} to="/">HOME</Link>
+      <Link style={styles.link} to="/create">NEW POST</Link>
+      <Link style={styles.link} to="/login">LOGIN</Link>
     </nav>
     <Routes>  
       <Route path="/" element={<Home />} />
@@ -17,7 +17,6 @@ function App() {
     </Routes>
   </Router>
 }
-
 const styles = {
   nav: {
     display: 'flex',
@@ -25,15 +24,20 @@ const styles = {
     alignItems: 'center',
     height: '10vh',
     width: '100%',
-    background: 'gray',
+    background: 'linear-gradient(50deg, #FE6B8B 25%, #FF8E53 10%)',
     color: 'white',
     boxShadow: '0 0 10px 0 rgba(0,0,0,0.5)',
+    fontfamily: 'Roboto',
+    TextTransform: 'uppercase',
   },
   link: {
     textDecoration: 'none',
     color: 'white',
     TextTransform: 'uppercase',
     fontWeight: 'bold',
+
   },
+  
+  
 };
 export default App;
