@@ -5,7 +5,7 @@ import CreatPost from './pages/CreatePost';
 import Login from './pages/Login';
 function App() {
   return <Router>
-    < nav style={styles.nav}>
+    <nav style={styles.nav}>
       <Link style={styles.link} to="/">Home</Link>
       <Link style={styles.link} to="/create">Create Post</Link>
       <Link style={styles.link} to="/login">Login</Link>
@@ -32,6 +32,8 @@ const styles = {
   link: {
     textDecoration: 'none',
     color: 'white',
+    TextTransform: 'uppercase',
+    fontWeight: 'bold',
   },
 };
 export default App;
