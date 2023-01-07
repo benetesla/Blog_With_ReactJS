@@ -3,13 +3,13 @@ import { initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore";
 import {getAuth, GoogleAuthProvider} from "firebase/auth";
 const firebaseConfig = {
-  apiKey: "AIzaSyAhfCCAGmeLTW1uQbWEdYWgZEhE3a8q2Pk",
-  authDomain: "blogdev-230df.firebaseapp.com",
-  projectId: "blogdev-230df",
-  storageBucket: "blogdev-230df.appspot.com",
-  messagingSenderId: "452365884126",
-  appId: "1:452365884126:web:8bc515c4952efd8c5b804f",
-  measurementId: "G-J22GP7636F"
+  apiKey: AADCIONEI SUA APUI
+  authDomain: SEU DOMONI
+  projectId: ID DO SEU PROJETO
+  storageBucket: SEU BUCKET
+  messagingSenderId: SEU NUMERO ID
+  appId: SEU API ID
+  measurementId:IFELIZMENTE ISSO AQUI E MEU ENTAO NAO IREI DEIXAR NADA DISPONIVEL NA INTERNET BAIXE E ESSE PROJETO E FAÇA AS SUAS CONFIGURACOES
 };
 
 // Initialize Firebase
